@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/nyc-resized.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,11 +70,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #3C3C63;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(.9) rotate(-4deg);
+  filter: grayscale(60%);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +87,8 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
+  opacity: .70;
 }
 .card {
   margin: 30px;
@@ -99,7 +101,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #2599B3;
 }
 
 ul.skills {
@@ -110,14 +112,19 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #FFA24F;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #2599B3;
+}
+
+.yt-thumbnail {
+  max-width: 340px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -202,6 +209,11 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+  .yt-thumbnail {
+    max-width: 420px;
+  }
+  
 
 }
 
