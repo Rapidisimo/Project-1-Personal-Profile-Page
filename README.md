@@ -7,3 +7,5 @@
 - Custom Text
 - Stylish Design
 - Practice using GitHub
+
+➡️ [VIEW PROJECT](https://rapidisimo.github.io/Project-1-Personal-Profile-Page/)
